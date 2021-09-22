@@ -1,0 +1,4 @@
+﻿  1labaOP.cpp
+C:\Users\Денис\Desktop\Основи програмування\Лабораторна робота 1\1labaOP\1labaOP\1labaOP.cpp(21,12): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  LINK : не найден или не выполнена сборка C:\Users\Денис\Desktop\Основи програмування\Лабораторна робота 1\1labaOP\Debug\1labaOP.exe при последней инкрементной компоновке; выполняется полная компоновка
+  1labaOP.vcxproj -> C:\Users\Денис\Desktop\Основи програмування\Лабораторна робота 1\1labaOP\Debug\1labaOP.exe
