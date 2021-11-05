@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int m, x, s, m1;
+    int m, bnum, s, m1;
     double n;
     n = 0;
     s = -1;
@@ -25,8 +25,8 @@ int main()
         {
             s += 1;
         }
-        x = m % 2;
-        n = n + x * pow(2, s);
+        bnum = m % 2;
+        n = n + bnum * pow(2, s);
         s -= 1;
     }
     cout << "n=" << n;
