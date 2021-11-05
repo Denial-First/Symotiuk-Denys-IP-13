@@ -1,4 +1,4 @@
-﻿
+
 #include <iostream>
 using std::cout;
 using std::cin;
@@ -6,25 +6,19 @@ using std::endl;
 
 int main()
 {
-    double num, i, k, den, x, res;
+    double num, n, i, den, x, res;
     num = 1;
     den = 1;
+    n = 64;
     
     cout << "x = ";
     cin >> x;
     
-    for (i = 2; i<=64; i = 2 * i) 
+    for (i = 2; i <= n; i)
     {
-        while (x == i - 1) {
-            cout << "There is no result. Try again" << endl;
-            cout << "x = ";
-            cin >> x;
-        }
         num = num * (x - i);
-    }
-    for (k = 1; k <= 63; k = 2 * k + 1)
-    {
-        den = den * (x - k);
+        den = den * (x - (i - 1));
+        i = i * 2;
     }
     res = num / den;
     cout << "result = " << res;
