@@ -26,6 +26,7 @@ int main()
 	{
 		cout <<  K[i] << " ";
 	}
+	delete[] K;
 }
 
 void Init_Arr(int* arr, int n)
